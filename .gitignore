@@ -1,5 +1,6 @@
-# Exclude all markdown files
+# Exclude all markdown files except README
 *.md
+!README.md
 
 # macOS
 .DS_Store
