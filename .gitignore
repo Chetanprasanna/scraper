@@ -1,0 +1,14 @@
+# Exclude all markdown files
+*.md
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/

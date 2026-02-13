@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Articles Dashboard | Glaido</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo-container">
+                <img src="../Designworkflow/glaido-main-white.svg" alt="Glaido" class="logo">
+            </div>
+            <h1 class="title">AI Articles Dashboard</h1>
+            <div class="header-controls">
+                <button id="refreshBtn" class="btn-secondary">
+                    <span>↻</span> Refresh
+                </button>
+            </div>
+        </header>
+
+        <!-- Featured Carousel Section -->
+        <section class="featured-section">
+            <h2 class="section-title">Featured Stories</h2>
+
+            <div class="carousel-container">
+                <button class="carousel-btn carousel-prev" id="prevBtn">‹</button>
+                <button class="carousel-btn carousel-next" id="nextBtn">›</button>
+
+                <div class="carousel-track" id="carouselTrack">
+                    <!-- Loading skeleton -->
+                    <div class="carousel-loading">
+                        <div class="loading-shimmer"></div>
+                    </div>
+                </div>
+
+                <div class="carousel-indicators" id="carouselIndicators">
+                    <!-- Dots will be added dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Source Status -->
+        <div class="sources-status">
+            <div class="source-card" id="benBitesStatus">
+                <div class="source-icon">📰</div>
+                <div class="source-info">
+                    <div class="source-name">Ben's Bites</div>
+                    <div class="source-count" id="benBitesCount">—</div>
+                </div>
+                <div class="source-badge success">●</div>
+            </div>
+            <div class="source-card" id="aiRundownStatus">
+                <div class="source-icon">🤖</div>
+                <div class="source-info">
+                    <div class="source-name">The AI Rundown</div>
+                    <div class="source-count" id="aiRundownCount">—</div>
+                </div>
+                <div class="source-badge success">●</div>
+            </div>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-controls">
+            <div class="filter-group">
+                <button class="filter-btn active" data-filter="all">
+                    All Articles <span class="filter-count" id="allCount">0</span>
+                </button>
+                <button class="filter-btn" data-filter="saved">
+                    Saved <span class="filter-count" id="savedCount">0</span>
+                </button>
+            </div>
+            <div class="last-updated" id="lastUpdated">Last updated: —</div>
+        </div>
+
+        <!-- Articles Grid -->
+        <div id="articlesContainer" class="articles-grid">
+            <!-- Loading skeleton -->
+            <div class="loading-skeleton">
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+                <div class="skeleton-card"></div>
+            </div>
+        </div>
+
+        <!-- Empty State -->
+        <div id="emptyState" class="empty-state hidden">
+            <div class="empty-icon">📭</div>
+            <h2 class="empty-title">No articles found</h2>
+            <p class="empty-message">Check back later for new updates!</p>
+        </div>
+    </div>
+
+    <!-- macOS-Style Dock Navigation -->
+    <div class="dock">
+        <div class="dock-container">
+            <a href="https://news.bensbites.co" target="_blank" class="dock-item" data-tooltip="Ben's Bites">
+                <img src="assets/bens-bites-logo.png" alt="Ben's Bites">
+            </a>
+            <a href="https://www.therundown.ai" target="_blank" class="dock-item" data-tooltip="AI Rundown">
+                <img src="assets/ai-rundown-logo.png" alt="AI Rundown">
+            </a>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

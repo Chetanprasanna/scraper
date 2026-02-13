@@ -1,0 +1,19 @@
+Colors
+Primary:
+#BFF549
+Accent:
+#BFF549
+Background:
+#000000
+Text Primary:
+#000000
+Link:
+#99A1AF
+Fonts
+Inter(body)
+Typography
+primary: Inter
+heading: Inter
+h1: 96px
+h2: 48px
+body: 24px
