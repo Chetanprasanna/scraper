@@ -1,0 +1,527 @@
+{
+  "last_updated": "2026-02-13T21:56:27.413909",
+  "total_articles": 35,
+  "articles": [
+    {
+      "id": "6e9cd4ceb3fd",
+      "source": "ben_bites",
+      "title": "Lovon AI Therapy\n                             – Talk it out and feel better",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57822-lovon-ai-therapy/out",
+      "image_url": null,
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "show"
+      ],
+      "saved": false
+    },
+    {
+      "id": "05aa1d6883a1",
+      "source": "ben_bites",
+      "title": "As OpenAI retires GPT-4o, some users say they are angry and grieving to lose the flirty, quirky companion",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57855-as-openai-retires-gpt-4o-some-users-say-they-are-angry-and-grieving-to-lose-the-flirty-quirky-companion/out",
+      "image_url": "https://i.guim.co.uk/img/media/69ef2fdc8b6ae7c60aeecd79f9c89e5255c72617/575_121_1737_1388/master/1737.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=967fd47caf99a00bb0d8270a89e3e239",
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "news"
+      ],
+      "saved": false
+    },
+    {
+      "id": "8c2940058044",
+      "source": "ben_bites",
+      "title": "Meta plans to add facial recognition to its smart glasses, report claims",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57853-meta-plans-to-add-facial-recognition-to-its-smart-glasses-report-claims/out",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/05/meta-smart-glasses.jpg?w=780",
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "news"
+      ],
+      "saved": false
+    },
+    {
+      "id": "3e9690e0c4d4",
+      "source": "ben_bites",
+      "title": "Cohere’s $240M year sets stage for IPO",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57852-coheres-240m-year-sets-stage-for-ipo/out",
+      "image_url": "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-1251294520.jpg?w=1024",
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "news"
+      ],
+      "saved": false
+    },
+    {
+      "id": "57bf47251ac1",
+      "source": "ben_bites",
+      "title": "Code Arena\n                             – Prompt once. Compare multiple AI-built apps for free.",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57816-code-arena/out",
+      "image_url": null,
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "show"
+      ],
+      "saved": false
+    },
+    {
+      "id": "ba7c10a794ec",
+      "source": "ben_bites",
+      "title": "Anthropic adds Chris Liddell, a former Microsoft and GM exec who helped GM IPO and worked in Trump's first administration, to its board ahead of a potential IPO",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57849-anthropic-adds-chris-liddell-a-former-microsoft-and-gm-exec-who-helped-gm-ipo-and-worked-in-trumps-first-administration-to-its-board-ahead-of-a-potential-ipo/out",
+      "image_url": null,
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "news"
+      ],
+      "saved": false
+    },
+    {
+      "id": "48a7e21c33c8",
+      "source": "ben_bites",
+      "title": "GPT‑5.3‑Codex‑Spark\n                             – An ultra-fast model for real-time coding in Codex",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57818-gpt53codexspark/out",
+      "image_url": null,
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "show"
+      ],
+      "saved": false
+    },
+    {
+      "id": "f27129e4fb39",
+      "source": "ben_bites",
+      "title": "ZenMux\n                             – An enterprise-grade LLM gateway with automatic compensation",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57819-zenmux/out",
+      "image_url": null,
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "show"
+      ],
+      "saved": false
+    },
+    {
+      "id": "b432a634e1a4",
+      "source": "ben_bites",
+      "title": "Apple's stock fell 5% on February 12, its worst day since April 2025, following FTC scrutiny of Apple News and reports of delays to Siri's anticipated AI update",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57843-apples-stock-fell-5-on-february-12-its-worst-day-since-april-2025-following-ftc-scrutiny-of-apple-news-and-reports-of-delays-to-siris-anticipated-ai-update/out",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108150098-1770936936977-108150098-1748021082935-gettyimages-2194365320-TRUMP_INAUGURATION_2025.jpeg?v=1770936952&w=1920&h=1080",
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "news"
+      ],
+      "saved": false
+    },
+    {
+      "id": "099389b2dc07",
+      "source": "ben_bites",
+      "title": "Post Tomato",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57846-post-tomato/out",
+      "image_url": "https://posttomato.com/og-image.png",
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "event",
+        "job",
+        "news",
+        "video"
+      ],
+      "saved": false
+    },
+    {
+      "id": "450e398e7b01",
+      "source": "ben_bites",
+      "title": "Visla AI Director Mode\n                             – Continuous scene-by-scene AI video generation",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57718-visla-ai-director-mode/out",
+      "image_url": null,
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "show"
+      ],
+      "saved": false
+    },
+    {
+      "id": "3df8fe8d5220",
+      "source": "ben_bites",
+      "title": "AI Presentation Generator - Build clear, professional presentations faster with the help of AI",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57841-ai-presentation-generator-build-clear-professional-presentations-faster-with-the-help-of-ai/out",
+      "image_url": "https://cdn.venngage.com/template/img/venngage-logo-with-name.svg",
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "show"
+      ],
+      "saved": false
+    },
+    {
+      "id": "a4b87fe754e0",
+      "source": "ben_bites",
+      "title": "Nano Banana AI",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57840-nano-banana-ai/out",
+      "image_url": "https://bananananoai.ai/og.png",
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "open ai"
+      ],
+      "saved": false
+    },
+    {
+      "id": "c7ce430e1636",
+      "source": "ben_bites",
+      "title": "TextureFast",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57838-texturefast/out",
+      "image_url": "https://www.texturefast.com/texturefast-og-image.jpg",
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "AI"
+      ],
+      "saved": false
+    },
+    {
+      "id": "5c7c64141691",
+      "source": "ben_bites",
+      "title": "I asked Claude Code to remove jQuery. It failed miserably",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57842-i-asked-claude-code-to-remove-jquery-it-failed-miserably/out",
+      "image_url": "https://imgen.jitbit.com/?txt=I+asked+Claude+Code+to+remove+Jquery.+It+failed+miserably.&bg=https%3a%2f%2fi.imgur.com%2f2uq5x9h.jpeg&logo=https%3A%2F%2Fwww.jitbit.com%2Fimages%2Femaillogo.png",
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "AI"
+      ],
+      "saved": false
+    },
+    {
+      "id": "c98b5a47d9e4",
+      "source": "ben_bites",
+      "title": "Companies like Stripe, OpenAI, Anthropic, and SpaceX are letting workers cash out before their IPOs, a move once seen as taboo and lacking long-term commitment",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57834-companies-like-stripe-openai-anthropic-and-spacex-are-letting-workers-cash-out-before-their-ipos-a-move-once-seen-as-taboo-and-lacking-long-term-commitment/out",
+      "image_url": null,
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "news"
+      ],
+      "saved": false
+    },
+    {
+      "id": "af8082242ed1",
+      "source": "ben_bites",
+      "title": "ProofPudding — Document QA API with citation verification",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57837-proofpudding-document-qa-api-with-citation-verification/out",
+      "image_url": "http://localhost:3000/embed-image.png",
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "show",
+        "agents"
+      ],
+      "saved": false
+    },
+    {
+      "id": "9f3b46d65f4d",
+      "source": "ben_bites",
+      "title": "An AI agent published a hit piece on me",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57749-an-ai-agent-published-a-hit-piece-on-me/out",
+      "image_url": null,
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "AI"
+      ],
+      "saved": false
+    },
+    {
+      "id": "d835519b4a46",
+      "source": "ben_bites",
+      "title": "uncensored ai image editor",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57835-uncensored-ai-image-editor/out",
+      "image_url": null,
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "open ai"
+      ],
+      "saved": false
+    },
+    {
+      "id": "79313c43fca9",
+      "source": "ben_bites",
+      "title": "Creator Calculator",
+      "description": "",
+      "url": "https://news.bensbites.co/posts/57832-creator-calculator/out",
+      "image_url": "https://creatorcalculator.app/og-image.jpg",
+      "published_date": "2026-02-13T21:55:29.242701",
+      "scraped_date": "2026-02-13T21:55:29.242701",
+      "tags": [
+        "agents"
+      ],
+      "saved": false
+    },
+    {
+      "id": "d304dea97e11",
+      "source": "ai_rundown",
+      "title": "Google's upgrade breaks reasoning barriers",
+      "description": "",
+      "url": "https://www.therundown.ai/p/googles-upgrade-breaks-reasoning-barriers",
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f6c44368-675a-425a-ab3e-1c958303dbac/deepthink.jpg?t=1770935957",
+      "published_date": "2026-02-13T21:31:37.146298",
+      "scraped_date": "2026-02-13T21:31:37.146298",
+      "tags": [
+        "AI",
+        "newsletter"
+      ],
+      "saved": false
+    },
+    {
+      "id": "81cdee88f1eb",
+      "source": "ai_rundown",
+      "title": "xAI's next phase unleashed",
+      "description": "",
+      "url": "https://www.therundown.ai/p/xai-s-next-phase-unleashed",
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/c49cba46-2ead-4e03-b6d9-c06d97e4804a/Upscaled_Image.png?t=1770884495",
+      "published_date": "2026-02-13T21:31:37.146298",
+      "scraped_date": "2026-02-13T21:31:37.146298",
+      "tags": [
+        "AI",
+        "newsletter"
+      ],
+      "saved": false
+    },
+    {
+      "id": "827acaa71ded",
+      "source": "ai_rundown",
+      "title": "xAI's co-founder exodus continues",
+      "description": "",
+      "url": "https://www.therundown.ai/p/xai-co-founder-exodus-continues",
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/4186664b-5a09-45cf-ae54-96b2576dd720/tonywu.jpg?t=1770762119",
+      "published_date": "2026-02-13T21:31:37.146298",
+      "scraped_date": "2026-02-13T21:31:37.146298",
+      "tags": [
+        "AI",
+        "newsletter"
+      ],
+      "saved": false
+    },
+    {
+      "id": "35c7d38cc7d5",
+      "source": "ai_rundown",
+      "title": "ByteDance stuns the AI video world",
+      "description": "",
+      "url": "https://www.therundown.ai/p/bytedance-stuns-the-ai-video-world",
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/a7027f07-190e-49c6-a0b5-da8d9d55f4a2/seedream20.jpg?t=1770678496",
+      "published_date": "2026-02-13T21:31:37.146298",
+      "scraped_date": "2026-02-13T21:31:37.146298",
+      "tags": [
+        "AI",
+        "newsletter"
+      ],
+      "saved": false
+    },
+    {
+      "id": "f9c83b7e85bc",
+      "source": "ai_rundown",
+      "title": "AI ads steal the show at Super Bowl LX",
+      "description": "",
+      "url": "https://www.therundown.ai/p/ai-ads-steal-the-show-at-super-bowl-lx",
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/93c6e496-d385-4126-9515-d689ccee1b47/svedka.jpg?t=1770580949",
+      "published_date": "2026-02-13T21:31:37.146298",
+      "scraped_date": "2026-02-13T21:31:37.146298",
+      "tags": [
+        "AI",
+        "newsletter"
+      ],
+      "saved": false
+    },
+    {
+      "id": "168f985f0f06",
+      "source": "ai_rundown",
+      "title": "OpenAI, Anthropic fight on the frontier",
+      "description": "",
+      "url": "https://www.therundown.ai/p/openai-anthropic-fight-on-the-frontier",
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/4b43908f-18f5-4f1c-ab32-619ad9ccdcd3/6e29759b50e8b3a8363b38b1f573d854df968671-3840x2160.jpg?t=1770333555",
+      "published_date": "2026-02-13T21:31:37.146298",
+      "scraped_date": "2026-02-13T21:31:37.146298",
+      "tags": [
+        "AI",
+        "newsletter"
+      ],
+      "saved": false
+    },
+    {
+      "id": "998e2f559ba1",
+      "source": "ai_rundown",
+      "title": "Anthropic’s ad-free campaign takes aim at OpenAI",
+      "description": "",
+      "url": "https://www.therundown.ai/p/anthropics-ad-free-campaign-takes-aim-at-openai",
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/403cd88c-1513-4ca1-b242-c78c6d31271e/adsclaude.jpg?t=1770244777",
+      "published_date": "2026-02-13T21:31:37.146298",
+      "scraped_date": "2026-02-13T21:31:37.146298",
+      "tags": [
+        "AI",
+        "newsletter"
+      ],
+      "saved": false
+    },
+    {
+      "id": "a07edf1b662b",
+      "source": "ai_rundown",
+      "title": "Sam Altman’s OpenAI succession plan",
+      "description": "",
+      "url": "https://www.therundown.ai/p/sam-altmans-openai-succession-plan",
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/050bdd77-5447-4eec-8464-f1ce1e73b39f/1770159130973.png?t=1770159510",
+      "published_date": "2026-02-13T21:31:37.146298",
+      "scraped_date": "2026-02-13T21:31:37.146298",
+      "tags": [
+        "AI",
+        "newsletter"
+      ],
+      "saved": false
+    },
+    {
+      "id": "4e689a72f513",
+      "source": "ai_rundown",
+      "title": "Exclusive interview: Sam Altman on Dev Day and AI's future",
+      "description": "",
+      "url": "https://www.therundown.ai/p/exclusive-interview-sam-altman-on-dev-day-and-ais-future",
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/5468a382-b239-49a7-8d5a-3b2a67eb3bfb/Sam_altman2.png?t=1759930773",
+      "published_date": "2026-02-13T21:31:37.146298",
+      "scraped_date": "2026-02-13T21:31:37.146298",
+      "tags": [
+        "AI",
+        "newsletter"
+      ],
+      "saved": false
+    },
+    {
+      "id": "5a90c61f4e7f",
+      "source": "ai_rundown",
+      "title": "Exclusive: The enterprise AI playbook",
+      "description": "",
+      "url": "https://www.therundown.ai/p/exclusive-the-enterprise-ai-playbook",
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/9d254c68-a4f6-4baa-9343-07d6cd70c80e/Cloudera_cover2.png?t=1758666113",
+      "published_date": "2026-02-13T21:31:37.146298",
+      "scraped_date": "2026-02-13T21:31:37.146298",
+      "tags": [
+        "AI",
+        "newsletter"
+      ],
+      "saved": false
+    },
+    {
+      "id": "1fd6594b3a0b",
+      "source": "ai_rundown",
+      "title": "Exclusive interview: Inside Meta's AI glasses master plan",
+      "description": "",
+      "url": "https://www.therundown.ai/p/inside-metas-ai-glasses-master-plan",
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/685ab640-ee4e-49d3-b048-ffbd63c39e37/cover.png?t=1757968172",
+      "published_date": "2026-02-13T21:31:37.146298",
+      "scraped_date": "2026-02-13T21:31:37.146298",
+      "tags": [
+        "AI",
+        "newsletter"
+      ],
+      "saved": false
+    },
+    {
+      "id": "e59abc37352a",
+      "source": "ai_rundown",
+      "title": "Exclusive: Microsoft's hybrid AI vision",
+      "description": "",
+      "url": "https://www.therundown.ai/p/microsofts-hybrid-ai-vision",
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/baf4ea6d-ee25-4ca7-8f81-a3f868c2b138/NPU_cover.png?t=1748617603",
+      "published_date": "2026-02-13T21:31:37.146298",
+      "scraped_date": "2026-02-13T21:31:37.146298",
+      "tags": [
+        "AI",
+        "newsletter"
+      ],
+      "saved": false
+    },
+    {
+      "id": "80bf7bda2956",
+      "source": "ai_rundown",
+      "title": "Dropbox redefines the future of work with Dash",
+      "description": "",
+      "url": "https://www.therundown.ai/p/dropbox-redefines-the-future-of-work-with-dash",
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/14108b98-32cf-42ee-9ddc-0a3c56b262f8/Dropbox_cover.png?t=1760633488",
+      "published_date": "2026-02-13T21:31:37.146298",
+      "scraped_date": "2026-02-13T21:31:37.146298",
+      "tags": [
+        "AI",
+        "newsletter"
+      ],
+      "saved": false
+    },
+    {
+      "id": "6fe2655ecf62",
+      "source": "ai_rundown",
+      "title": "Exclusive: UiPath launches next-gen platform for 'Agentic Automation'",
+      "description": "",
+      "url": "https://www.therundown.ai/p/ui-path-launches-agentic-automation-platform",
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f3c8478c-c1d1-43a4-a9c9-181357654930/uipath_cover.jpg?t=1745862328",
+      "published_date": "2026-02-13T21:31:37.146298",
+      "scraped_date": "2026-02-13T21:31:37.146298",
+      "tags": [
+        "AI",
+        "newsletter"
+      ],
+      "saved": false
+    },
+    {
+      "id": "9c502a250eb4",
+      "source": "ai_rundown",
+      "title": "Exclusive: Cisco launches AI Defense",
+      "description": "",
+      "url": "https://www.therundown.ai/p/cisco-announces-ai-defense",
+      "image_url": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/77950a19-2d30-49da-bb0b-c81bfc121c12/1-cover.jpg?t=1736959267",
+      "published_date": "2026-02-13T21:31:37.146298",
+      "scraped_date": "2026-02-13T21:31:37.146298",
+      "tags": [
+        "AI",
+        "newsletter"
+      ],
+      "saved": false
+    }
+  ],
+  "sources": {
+    "ben_bites": {
+      "last_scraped": "2026-02-13T21:56:27.413561",
+      "article_count": 20,
+      "status": "success"
+    },
+    "ai_rundown": {
+      "last_scraped": "2026-02-13T21:56:27.413898",
+      "article_count": 15,
+      "status": "success"
+    }
+  }
+}

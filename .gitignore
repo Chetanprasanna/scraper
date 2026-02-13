@@ -2,6 +2,12 @@
 *.md
 !README.md
 
+# Exclude temporary scraper data directory
+.tmp/
+
+# Allow aggregated data in dashboard (needed for Vercel)
+!dashboard/aggregated_articles.json
+
 # macOS
 .DS_Store
 

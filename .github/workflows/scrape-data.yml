@@ -1,0 +1,46 @@
+name: Scrape AI News Data
+
+on:
+  schedule:
+    # Run daily at 00:00 UTC (5:30 AM IST)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  scrape-and-commit:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Run AI Rundown scraper
+        run: python tools/scrape_ai_rundown.py
+        continue-on-error: true
+        
+      - name: Run Ben's Bites scraper
+        run: python tools/scrape_bens_bites.py
+        continue-on-error: true
+        
+      - name: Aggregate data
+        run: python tools/aggregate_data.py
+        
+      - name: Copy aggregated data to dashboard
+        run: cp .tmp/aggregated_articles.json dashboard/aggregated_articles.json
+        
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add dashboard/aggregated_articles.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-update: Fresh AI news data scraped on $(date +'%Y-%m-%d %H:%M UTC')" && git push)

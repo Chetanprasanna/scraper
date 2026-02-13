@@ -39,8 +39,7 @@ def scrape_bens_bites():
         current_time = datetime.now()
         cutoff_time = current_time - timedelta(hours=24)
         
-        # Find article links - Ben's Bites uses a custom structure
-        # Looking for links to posts
+        # Find article links - Ben's Bites uses /posts/*/out structure
         post_links = soup.find_all('a', href=True)
         
         seen_urls = set()
@@ -48,31 +47,37 @@ def scrape_bens_bites():
         for link in post_links:
             href = link.get('href', '')
             
-            # Filter for actual article/post links
-            if '/posts/' in href or href.startswith('http'):
+            # Filter for actual article/post links with /out suffix
+            # Ben's Bites uses /posts/{id}-{title}/out format
+            if '/posts/' in href and '/out' in href:
                 # Make absolute URL
                 if href.startswith('/'):
                     article_url = f"https://news.bensbites.co{href}"
                 else:
                     article_url = href
                 
-                # Skip if already seen or not relevant
-                if article_url in seen_urls or article_url == url:
+                # Skip if already seen
+                if article_url in seen_urls:
                     continue
                 
-                # Skip internal navigation links
-                if '/tags/' in article_url or '/out' in article_url:
-                    # Extract actual external URL from /out links
-                    if '/out' in article_url:
-                        continue
+                # Skip tag links
+                if '/tags/' in article_url:
+                    continue
                 
                 seen_urls.add(article_url)
                 
                 # Get title from link text
                 title = link.get_text(strip=True)
                 
-                # Skip empty or very short titles
-                if not title or len(title) < 3:
+                # Skip empty or very short titles (like single characters)
+                if not title or len(title) < 5:
+                    continue
+                
+                # Skip if title is just a tag name (common on Ben's Bites)
+                common_tags = ['show', 'news', 'event', 'job', 'video', 'open ai', 'agents', 
+                              'anthropic', 'chatgpt', 'google', 'gpt-4', 'hugging face', 
+                              'llm', 'open source']
+                if title.lower() in common_tags:
                     continue
                 
                 # Look for tags nearby
@@ -80,7 +85,7 @@ def scrape_bens_bites():
                 parent = link.find_parent()
                 if parent:
                     tag_elements = parent.find_all('a', href=lambda x: x and '/tags/' in x)
-                    tags = [tag.get_text(strip=True) for tag in tag_elements]
+                    tags = [tag.get_text(strip=True) for tag in tag_elements if tag.get_text(strip=True)]
                 
                 # Try to get image for this article
                 image_url = None
@@ -119,7 +124,7 @@ def scrape_bens_bites():
                     "image_url": image_url,
                     "published_date": current_time.isoformat(),  # Use current time as approximation
                     "scraped_date": current_time.isoformat(),
-                    "tags": tags if tags else [],
+                    "tags": tags if tags else ["AI"],
                     "saved": False
                 }
                 

@@ -2,7 +2,7 @@
 // Handles carousel, data loading, rendering, filtering, and save functionality
 
 const STORAGE_KEY = 'glaido_saved_articles';
-const DATA_URL = '../.tmp/aggregated_articles.json';
+const DATA_URL = 'aggregated_articles.json';
 
 let allArticles = [];
 let savedArticleIds = new Set();
